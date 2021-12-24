@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main {
+    display: flex;
+    justify-content: center;
+}
+#card {
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: rgb(62, 173, 149);
+    border-radius: 10px;
+    padding: 50px 25px;
+    margin-top: 100px;
+}
+#texts {
+    padding-left: 20px;
+}
+#imgDiv {
+    display: flex;
+    justify-content: center;
+}
+#img {
+    width: 150px;
+    border-radius: 50%;
+}
